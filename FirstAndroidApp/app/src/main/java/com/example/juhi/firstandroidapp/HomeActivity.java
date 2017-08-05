@@ -1,5 +1,6 @@
 package com.example.juhi.firstandroidapp;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -23,5 +24,11 @@ public class HomeActivity extends AppCompatActivity {
                 Toast.makeText(view.getContext(), "did it!!", Toast.LENGTH_SHORT).show();
             }
         });
+    }
+
+    public void onNextScreenButtonClicked(View view) {
+        Toast.makeText(this, "Did it again!!", Toast.LENGTH_SHORT).show();
+        Intent intent = new Intent(this, AboutActivity.class);
+        startActivity(intent);
     }
 }
