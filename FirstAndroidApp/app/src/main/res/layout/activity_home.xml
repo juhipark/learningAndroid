@@ -32,5 +32,21 @@
         tools:layout_editor_absoluteY="265dp"
         android:onClick="onNextScreenButtonClicked"/>
 
+    <Button
+        android:id="@+id/butter_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Butter"
+        tools:layout_editor_absoluteX="147dp"
+        tools:layout_editor_absoluteY="445dp" />
+
+    <TextView
+        android:id="@+id/butter_knife_text_view_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TEST"
+        tools:layout_editor_absoluteX="162dp"
+        tools:layout_editor_absoluteY="400dp" />
+
 
 </android.support.constraint.ConstraintLayout>
